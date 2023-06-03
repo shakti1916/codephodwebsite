@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Website</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-color-primary text-color-white tracking-wider">
+    <header>
+      <nav class="container flex justify-between items-center">
+        <div class="text-color-secondary font-bold text-3xl py-5">
+          <a href="#home"> <span class="text-color-white">Code</span>Phod </a>
+        </div>
+        <div>
+          <ul class="hidden lg:flex items-center space-x-6">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonal"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonal</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <button class="btn">Free trial</button>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile screen -->
+        <div id="humburger" class="lg:hidden cursor-pointer z-50">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div
+          id="menu"
+          class="hidden bg-color-primary-dark h-[100vh] absolute inset-0"
+        >
+          <ul class="h-full grid place-items-center py-20">
+            <li>
+              <a
+                id="hlink"
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#testimonal"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonal</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <button
+                class="bg-color-secondary px-9 py-3 rounded-md font-bold capitalize hover:opacity-80 ease-in duration-200"
+              >
+                Free trial
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="relative">
+        <div
+          class="blob1"
+        ></div>
+        <div
+          class="blob2"
+        ></div>
+        <div class="container py-20">
+          <div class="flex flex-col items-center z-20 md:flex-row">
+            <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+              <h1 class="title">Awesome App for Your Fianancial.</h1>
+              <p class="leading-relaxed mb-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                cum consectetur omnis perferendis officia error?Lorem ipsum
+                dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+              <button class="btn">Download App</button>
+            </div>
+            <div class="md:w-1/2">
+              <img src="./images/hero4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="bg-color-primary light">
+        <div class="container py-20">
+          <div class="text-center mb-20 md:w-1/2 m-auto">
+            <h4 class="font-bold text-color-secondary mb-4">Our Features</h4>
+            <h1 class="title">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa,
+              accusamus!
+            </h1>
+          </div>
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8"
+          >
+            <div
+              class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200"
+            >
+              <div
+                class="bg-color-secondary py-5 px-6 inline-block rounded-2xl"
+              >
+                <i class="fa-solid fa-calendar-days text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Expense Trackering</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+            <div
+              class="bg-color-primary-dark border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200"
+            >
+              <div
+                class="bg-color-secondary py-5 px-6 inline-block rounded-2xl"
+              >
+                <i class="fa-solid fa-chart-column text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+            <div
+              class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200"
+            >
+              <div
+                class="bg-color-secondary py-5 px-6 inline-block rounded-2xl"
+              >
+                <i class="fa-solid fa-phone text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Support 24/24</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="saving-money">
+        <div class="container py-20 relative">
+            <div
+            class="blob1"
+          ></div>
+          <div
+            class="blob2"
+          ></div>
+          <div class="flex flex-col items-center justify-between md:flex-row">
+            <div class="mb-12 md:w-1/2">
+              <img src="./images/hero3.png" alt="" />
+            </div>
+            <div class="text-center md:text-left md:w-1/2 md:ml-20">
+              <h4 class="font-bold text-color-secondary mb-4">Our Features</h4>
+              <h1 class="title mb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa,
+                accusamus! lorem10
+              </h1>
+              <p class="leading-relaxed mb-10">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Architecto id mollitia soluta iusto voluptatum illum laborum,
+                blanditiis aliquid repellat. Dolore?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works" class="bg-color-primary light">
+        <div class="container py-20">
+          <div class="text-center mb-20 md:w-1/2 m-auto">
+            <h4 class="font-bold text-color-secondary mb-4">How it Works</h4>
+            <h1 class="title">
+              Grow up your money saving
+            </h1>
+          </div>
+          <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-x-6 md:space-y-0">
+            <div class="text-center cursor-pointer">
+              <p class="text-6xl">1</p>
+              <h3 class="text-xl font-bold py-4">Install the App</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+            
+            <div class="text-center cursor-pointer">
+              <div class="relative bg-color-secondary inline-block px-6 py-3 rounded-lg">
+                <p class="text-6xl">2</p>
+              </div>
+            
+              <h3 class="text-xl font-bold py-4">Setup Your Family</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+            <div class="text-center cursor-pointer">
+              <p class="text-6xl">3</p>
+              <h3 class="text-xl font-bold py-4">Install the App</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonal">
+        <div class="conatiner py-20">
+          <div class="text-center mb-20 md:w-1/2 m-auto">
+            <h4 class="font-bold text-color-secondary mb-4">User Review</h4>
+            <h1 class="title">
+             What client say about our app
+            </h1>
+          </div>
+          <div class="mt-8">
+            <div class="flex items-center justify-center flex-wrap">
+             
+              
+            <img src="./images/user1.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic" width="20" height="20" onclick="showReview()"/>
+            <img src="./images/user2.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+            <img src="./images/user3.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+            <img src="./images/user4.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+            <img src="./images/user5.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+          </div>
+          <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]">        
+         
+          <div class="user-text active-text">
+            <p class="md:text-2xl mb-6">
+              This should be used to tell a story and include any testimonal you might about your product or service 
+            </p>
+            <h4 class="font-bold text-color-secondary">Markin Nesus</h4>
+            <p>IOS developer</p>
+          </div>
+          <div class="user-text">
+            <p class="md:text-2xl mb-6">
+              This should be used to tell a story and include any testimonal you might about your product or service 
+            </p>
+            <h4 class="font-bold text-color-secondary">Abu salim</h4>
+            <p>Android developer</p>
+          </div>
+          <div class="user-text">
+            <p class="md:text-2xl mb-6">
+              This should be used to tell a story and include any testimonal you might about your product or service 
+            </p>
+            <h4 class="font-bold text-color-secondary">Mumtaz bedi</h4>
+            <p>React developer</p>
+          </div>
+          <div class="user-text">
+            <p class="md:text-2xl mb-6">
+              This should be used to tell a story and include any testimonal you might about your product or service 
+            </p>
+            <h4 class="font-bold text-color-secondary">Harshad Mehts</h4>
+            <p>Next developer</p>
+          </div>
+          <div class="user-text">
+            <p class="md:text-2xl mb-6">
+              This should be used to tell a story and include any testimonal you might about your product or service 
+            </p>
+            <h4 class="font-bold text-color-secondary">Luther king</h4>
+            <p>Javascript developer</p>
+          </div>
+          </div>
+        </div>
+
+        </div>
+      </section>
+      <section id="pricing" class="bg-color-primary-dark">
+        <div class="container py-20">
+          <div class="text-center m-auto mb-20 md:w-1/2">
+            <h4 class="font-bold text-color-secondary mb-4 ">Pricing</h4>
+            <h1 class="title">Get Reasonable Price</h1>
+            <div class="mt-5 flex items-center justify-center gap-4">
+              <p>Bill Monthly</p>
+              <label class="cursor-pointer relative inline-block w-20 h-8 rounded-full">
+                  <input type="checkbox" id="toggleBtn" class="peer opacity-0 w-0 h-0">
+                  <span class="absolute top-0 left-0 right-0 bottom-0 bg-color-primary-light border border-solid border-color-gray rounded-full duration-300 before:content-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full before:bg-color-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-color-secondary"></span>
+              </label>
+              <p>Bill Anually</p>
+          </div>
+          </div>
+        
+           
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="map">
+        <div class="w-full h-full">
+
+  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.433919303741!2d76.68201727527763!3d30.706199574597093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee5556fa2687%3A0x5973793b0fa18b88!2sWorld%20Tech%20Tower!5e0!3m2!1sen!2sde!4v1685804422343!5m2!1sen!2sde" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="m-auto
+        h-full w-full"></iframe>
+      </div>
+      </section>
+      <section>
+        <div class="text-center mb-5">
+          <p class="text-color-secondary">
+            @2023 Copyright reserved with Shakti
+          </p>
+         
+
+        </div>
+      </section>
+    </main>
+    <script>
+      // mobile menu
+      const hamburger = document.querySelector("#humburger");
+      const menu = document.querySelector("#menu");
+      const hlink = document.querySelectorAll("#hlink");
+      const fasolid = document.querySelector(".fa-solid");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        fasolid.classList.toggle("fa-xmark");
+      });
+      hlink.forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+          fasolid.classList.toggle("fa-xmark");
+        });
+      });
+      const userTexts = document.getElementsByClassName("user-text")
+      const userPics = document.getElementsByClassName("user-pic")
+      function showReview(){
+        for(userPic of userPics){
+          userPic.classList.remove('active-pic')
+        }
+        for(userText of userTexts){
+          userText.classList.remove('active-text')
+        }
+        let i = Array.from(userPics).indexOf(event.target)
+        userPics[i].classList.add('active-pic')
+        userTexts[i].classList.add('active-text')
+
+      }
+
+      
+
+    </script>
+  </body>
+</html>
